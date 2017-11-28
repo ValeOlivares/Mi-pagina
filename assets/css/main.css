@@ -1,0 +1,72 @@
+body{
+	margin: 0 auto;
+  font-family: 'Roboto Mono', monospace;
+}
+
+header {
+	background-color: #A79394;
+	color: #fff;
+}
+.celHeader{
+  display: none;
+}
+
+.portada{
+	background-image: url(../img/lavanda.webp);
+	background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  height: 30em;
+}
+
+.wanderlust {
+  color: #fff;
+  vertical-align: middle;
+  font-size: 30px;
+  margin-top: 200px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.workshop{
+	
+  padding: 2em;
+  text-align: justify;
+}
+
+.contact{
+  padding: 2em;
+}
+
+.workshopParragraph, .contactParragraph{
+  padding: 1em;
+}
+
+.button{
+  padding: 1em;
+  text-align: center;
+}
+
+.storeList{
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+}
+
+.store{
+  border: 1px solid #aaaaaa;
+  text-align:center;
+}
+
+.storeImg {
+  width: 300px;
+  margin: 0;
+}
+
+
+footer{
+  background-color: #aaaaaa;
+  color: #fff;
+  height: 2em;
+  text-align: center;
+}

@@ -1,0 +1,22 @@
+@media (min-width: 200px) and (max-width: 920px){
+  [class*="col-"]{
+    width: 100%;
+  }
+
+  .header{
+  	display: none;
+  }	
+  .celHeader {
+  	display: inline-block;	
+  }
+  .start, .celHeader{
+  	width: 50%;
+  }
+  .celHeader{
+  	text-align: right;
+  }
+  .storeList{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+}
