@@ -1,4 +1,4 @@
-@media (min-width: 200px) and (max-width: 920px){
+@media (max-width: 920px){
   [class*="col-"]{
     width: 100%;
   }
